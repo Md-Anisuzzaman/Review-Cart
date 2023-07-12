@@ -1,0 +1,65 @@
+.review_container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+
+.user_info h3 {
+    margin: 0;
+    padding: 0;
+    padding: 10px 0px;
+    /* width: 100px; */
+}
+
+
+.review_container span {
+    color: green;
+    font-style: italic;
+    /* width: 100px; */
+}
+
+.review__main__container p {
+    text-align: center;
+    font-style: italic;
+    padding: 30px;
+}
+
+.btn__container {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    /* top: 0px; */
+    /* left: 0px; */
+    bottom: 40px;
+    right: 50px;
+}
+
+.user__all__info {
+    display: flex;
+}
+
+.user__all__info .image_body .myImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+
+    /* border:1px solid gray; */
+    /* background-color: transparent; */
+}
+
+.btn__container button span {
+    color: rgb(75, 75, 222);
+}
